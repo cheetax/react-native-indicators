@@ -1,6 +1,6 @@
 {
   "name": "@cheetax/react-native-indicators",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Google Indicators M3 Expressive update",
   "homepage": "https://github.com/cheetax/react-native-indicators#readme",
   "bugs": {
@@ -10,10 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/cheetax/react-native-indicators.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "cheetax",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "LoadingIndicator/LoadingIndicator.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
