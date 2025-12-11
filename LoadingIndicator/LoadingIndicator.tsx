@@ -1,9 +1,9 @@
 import { Canvas, SkPath, Skia } from '@shopify/react-native-skia';
 import { useEffect, useState } from 'react';
-import { LayoutChangeEvent, StyleSheet, Text, View, ViewStyle } from 'react-native';
-import Animated, { useAnimatedStyle, useSharedValue, withRepeat, withTiming, interpolate, Easing, withSequence, WithTimingConfig, useAnimatedReaction } from 'react-native-reanimated';
+import { LayoutChangeEvent, StyleSheet, View, ViewStyle } from 'react-native';
+import Animated, { useAnimatedStyle, useSharedValue, withRepeat, withTiming, interpolate, Easing, withSequence, WithTimingConfig, } from 'react-native-reanimated';
 import { PathLoading } from './PathLoading';
-import { LoadingIndicatorProps, SizeVariantType } from './type'; import { PathType } from './type';
+import { LoadingIndicatorProps, SizeVariantType, PathType } from './type'; 
 import pathJson from './path.json'
 import { useTheme } from 'react-native-paper';
 

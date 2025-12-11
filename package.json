@@ -1,6 +1,6 @@
 {
   "name": "@cheetax/react-native-indicators",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Google Indicators M3 Expressive update",
   "homepage": "https://github.com/cheetax/react-native-indicators#readme",
   "bugs": {
@@ -16,5 +16,10 @@
   "main": "LoadingIndicator/LoadingIndicator.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@shopify/react-native-skia": "^2.4.7",
+    "react-native-paper": "^5.14.5",
+    "react-native-reanimated": "^4.2.0"
   }
 }
